@@ -61,14 +61,14 @@ python3 -m http.server 8080
 
 ## 部署至 GitHub Pages
 
-1. 建立新的 GitHub repository（例如 `panglanpen-web`）。
+1. 建立空的 GitHub repository `silentcountry0109-hash/fat-thin-blue`（不要勾選 README / .gitignore / license）。
 2. 於本地初始化並推送：
    ```bash
    cd panglanpen-web
    git init -b main
    git add .
    git commit -m "feat: dual-book reader (pan 80 + slim 26) answer-only"
-   git remote add origin https://github.com/<your-account>/panglanpen-web.git
+   git remote add origin https://github.com/silentcountry0109-hash/fat-thin-blue.git
    git push -u origin main
    ```
 3. 於 GitHub repo 的 **Settings → Pages**：
@@ -76,7 +76,7 @@ python3 -m http.server 8080
    - Branch：`main` / root（`/`）
    - Save
 4. 稍候 1–2 分鐘後站點會上線於
-   `https://<your-account>.github.io/panglanpen-web/`
+   `https://silentcountry0109-hash.github.io/fat-thin-blue/`
 
 ### 檔案大小
 

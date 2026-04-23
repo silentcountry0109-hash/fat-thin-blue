@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>胖瘦藍本 · 解答卷閱讀器 · 典陸教育 Danlu Education</title>
+<meta name="description" content="胖藍本 80 回 + 瘦藍本 26 回 · 解答卷線上版 · 典陸教育 Danlu Education" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<aside class="sidebar" id="sidebar">
+  <header class="brand">
+    <div class="brand-mark">
+      <span class="brand-kanji">胖瘦藍本</span>
+    </div>
+    <div class="brand-meta">
+      <div class="brand-zh">小六資優集訓 · 第二階段</div>
+      <div class="brand-en">PANG &amp; SHOU LAN PEN · Answer Reader</div>
+    </div>
+  </header>
+
+  <div class="search">
+    <input id="q" type="search" placeholder="搜尋解答文字… (例如：比例、平均、陰影)" autocomplete="off" />
+    <div class="hint" id="search-hint">共 <b>106</b> 回可檢索</div>
+  </div>
+
+  <nav class="books" id="books" aria-label="書別與回次"></nav>
+
+  <footer class="credit">
+    <div class="credit-zh">典陸教育</div>
+    <div class="credit-en">Danlu Education</div>
+  </footer>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <button id="menu-toggle" class="menu-toggle" aria-label="切換目錄">≡</button>
+    <div class="breadcrumb" id="breadcrumb">
+      <span class="crumb-muted">選擇一回開始閱讀</span>
+    </div>
+  </header>
+
+  <section class="viewer" id="viewer">
+    <div class="welcome">
+      <div class="welcome-card">
+        <div class="logo-zh">胖瘦藍本</div>
+        <div class="logo-sub">PANG &amp; SHOU LAN PEN</div>
+        <hr/>
+        <p class="welcome-line">小六資優集訓 · 第二階段 · 解答卷</p>
+        <p class="welcome-line muted">胖藍本 <b>80</b> 回（分為三冊）· 瘦藍本 <b>26</b> 回（七大主題）</p>
+        <ul class="welcome-tips">
+          <li>左側邊欄點選<span class="k">胖藍本</span>或<span class="k">瘦藍本</span>展開回次</li>
+          <li>胖藍本依 <span class="k">冊別</span> 分組，瘦藍本依 <span class="k">主題</span> 分組</li>
+          <li>上方搜尋框可檢索解答內文</li>
+        </ul>
+        <div class="welcome-brand">典陸教育 <span class="sep">·</span> Danlu Education</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="data/manifest.js"></script>
+<script src="data/index.js"></script>
+<script src="src/app.js" defer></script>
+</body>
+</html>

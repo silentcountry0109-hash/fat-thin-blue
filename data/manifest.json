@@ -387,7 +387,7 @@
           "round": 52,
           "volume": 2,
           "label_zh": "第 52 回",
-          "pages": 7
+          "pages": 6
         },
         {
           "id": "r53",
@@ -415,7 +415,7 @@
           "round": 56,
           "volume": 2,
           "label_zh": "第 56 回",
-          "pages": 6
+          "pages": 5
         },
         {
           "id": "r57",
@@ -450,7 +450,7 @@
           "round": 61,
           "volume": 3,
           "label_zh": "第 61 回",
-          "pages": 6
+          "pages": 5
         },
         {
           "id": "r62",
@@ -548,7 +548,7 @@
           "round": 75,
           "volume": 3,
           "label_zh": "第 75 回",
-          "pages": 6
+          "pages": 5
         },
         {
           "id": "r76",
@@ -583,7 +583,7 @@
           "round": 80,
           "volume": 3,
           "label_zh": "第 80 回",
-          "pages": 6
+          "pages": 5
         }
       ]
     },

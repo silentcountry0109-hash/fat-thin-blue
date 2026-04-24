@@ -14,3 +14,7 @@ __pycache__/
 
 # Node (if ever added)
 node_modules/
+
+# Local helper scripts (throwaway)
+_*.bat
+_*.ps1

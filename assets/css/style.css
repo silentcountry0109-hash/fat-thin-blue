@@ -569,3 +569,5 @@ body {
 .sidebar::-webkit-scrollbar { width: 6px; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
 .sidebar::-webkit-scrollbar-track { background: transparent; }
+
+.credit-tag{font-size:10px; color:var(--sumi-soft, #888); letter-spacing:.15em; margin-top:6px; opacity:.85}
